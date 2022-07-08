@@ -1,0 +1,235 @@
+.titulohome {
+  color: #ffd900;
+}
+
+.subtitulo {
+  color: red;
+}
+
+.titulo-musica {
+  color: #ffd900;
+}
+
+.box {
+  color: blue;
+}
+
+.img-ingame {
+  color: black;
+}
+
+.formularioContainer {
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#cartita, #cartita1 {
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+#cartita:hover, #cartita1:hover {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+}
+
+.carousel-caption {
+  bottom: 280px;
+}
+
+#stats {
+  list-style: none;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  -webkit-box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+#bounceimg:hover {
+  -webkit-animation: bounce 1s linear;
+          animation: bounce 1s linear;
+}
+
+.guiadeljuego {
+  margin: 4vh 7vh 4vh 7vh;
+}
+
+.historiaprincipal, .box, .img-ingame, .musica-text, .text-guide {
+  padding: 0.5vh;
+  padding-bottom: 1.5vh;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(255, 255, 255, 0.1);
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(255, 255, 255, 0.1);
+}
+
+.img-ingame {
+  -webkit-box-shadow: 5px 5px 4px 4px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(255, 255, 255, 0.1);
+          box-shadow: 5px 5px 4px 4px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(255, 255, 255, 0.1);
+}
+
+.musica-text {
+  -webkit-box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, 0.2), 5px 5px 5px rgba(255, 255, 255, 0.1);
+          box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, 0.2), 5px 5px 5px rgba(255, 255, 255, 0.1);
+}
+
+.text-guide {
+  -webkit-box-shadow: 3px 4px 3px 3px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(255, 255, 255, 0.1);
+          box-shadow: 3px 4px 3px 3px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(255, 255, 255, 0.1);
+}
+
+.parrafos-guia {
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.parrafohome {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.parrafo-servicio {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.div-servicio {
+  background-color: aqua;
+}
+
+.filecity-icon,
+.nativeforest-icon,
+.tropicaljungle-icon,
+.drilltunel-icon,
+.drilltunel2-icon,
+.geckoswamp-icon,
+.mistytrees-icon,
+.toytown-icon,
+.industrialtown-icon,
+.monteinfinito-icon,
+.bugland-icon,
+.backdimension-icon {
+  height: 450px;
+  width: 450px;
+  padding: 0;
+  margin: 0;
+}
+
+.filecity-icon {
+  border: 0.5px solid red;
+}
+
+.nativeforest-icon {
+  border: 0.5px solid red;
+}
+
+.tropicaljungle-icon {
+  border: 0.5px solid red;
+}
+
+.drilltunel-icon {
+  border: 0.5px solid red;
+}
+
+.drilltunel2-icon {
+  border: 0.5px solid red;
+}
+
+.geckoswamp-icon {
+  border: 0.5px solid red;
+}
+
+.mistytrees-icon {
+  border: 0.5px solid red;
+}
+
+.toytown-icon {
+  border: 0.5px solid red;
+}
+
+.industrialtown-icon {
+  border: 0.5px solid red;
+}
+
+.monteinfinito-icon {
+  border: 0.5px solid red;
+}
+
+.bugland-icon {
+  border: 0.5px solid red;
+}
+
+.backdimension-icon {
+  border: 0.5px solid red;
+}
+
+@-webkit-keyframes bounce {
+  20%, 50%, 80%, to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  70% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  90% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+}
+
+@keyframes bounce {
+  20%, 50%, 80%, to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  70% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  90% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+}
+
+@media all and (max-width: 450px) {
+  .carrusel-audio {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .aside-jugabilidad {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
